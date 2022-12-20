@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.bg {
+  background-color: rgb(220, 220, 220);
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(239, 239, 239);
+  height: 9vh;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3d3d3d;
+  font-weight: bold;
+}
+
+nav ul li .active {
+  color: black;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+.imgLogo {
+  width: 24px;
+  margin-right: 24px;
+}
+
+.item-left {
+  flex: 50%;
+}
+
+.item-right {
+  flex: 50%;
+  text-align: end;
+  margin-right: 30px;
+}
+
+.item-right a {
+  text-decoration: none;
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+.margin {
+  background-color: white;
+  width: 1100px;
+  height: 550px;
+  margin: 75px auto;
+  box-shadow: 0px 20px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.foto {
+  width: 150px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 10px #dbdbdb;
+  margin-right: 25px;
+  padding: 15px;
+  float: right;
+  text-align: center;
+}
+
+#img {
+  float: right;
+  width: 250px;
+}
+
+.text {
+  width: 50%;
+  margin: 50px 75px;
+  text-align: justify;
+}
+
+.contact {
+  padding: 5px 20px;
+  background-color: black;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  font: size 240px;
+}
+
+.download {
+  padding-left: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+#Logo-Down {
+  width: 24px;
+}
+
+.sosmed {
+  width: 40px;
+  padding: 10px;
+  text-align: justify;
+}
