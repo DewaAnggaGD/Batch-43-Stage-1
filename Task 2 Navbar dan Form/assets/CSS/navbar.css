@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.bg {
+ background-color: rgb(220, 220, 220);
+ overflow: hidden;
+}
+
+nav {
+  display: flex;
+  background-color:rgb(239, 239, 239);
+  height: 9vh;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3d3d3d;
+  font-weight: bold;
+}
+
+nav ul li .active {
+  color: black;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+.imgLogo {
+  width: 24px;
+  margin-right: 24px;
+}
+
+.item-left {
+  flex: 50%;
+}
+
+.item-right {
+  flex: 50%;
+  text-align: end;
+  margin-right: 30px;
+}
+
+.item-right a {
+  text-decoration: none;
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
