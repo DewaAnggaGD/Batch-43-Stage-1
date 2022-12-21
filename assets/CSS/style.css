@@ -22,9 +22,15 @@ nav ul {
 }
 
 nav ul li a {
+  padding: 14px 16px;
+  border-radius: 15px;
   text-decoration: none;
   color: #3d3d3d;
   font-weight: bold;
+}
+
+li a:hover {
+  background-color: grey;
 }
 
 nav ul li .active {
@@ -51,12 +57,16 @@ img {
   margin-right: 30px;
 }
 
-.item-right a {
+.item-right a{
   text-decoration: none;
   padding: 8px 20px;
   background-color: black;
   color: white;
   border-radius: 15px;
+}
+
+.item-right a:hover{
+  background-color: rgb(105, 105, 226);;
 }
 
 .margin {
@@ -97,6 +107,10 @@ img {
   text-decoration: none;
   color: white;
   font: size 240px;
+}
+
+.contact:hover {
+  background-color: rgb(105, 105, 226);
 }
 
 .download {

@@ -23,9 +23,15 @@ nav ul {
 }
 
 nav ul li a {
+  padding: 14px 16px;
+  border-radius: 15px;
   text-decoration: none;
   color: #3d3d3d;
   font-weight: bold;
+}
+
+li a:hover {
+  background-color: grey;
 }
 
 nav ul li .active {
@@ -60,6 +66,11 @@ img {
   color: white;
   border-radius: 15px;
 }
+
+.item-right a:hover{
+  background-color: rgb(105, 105, 226);;
+}
+
 
 .get {
   text-align: center;
@@ -104,4 +115,8 @@ button {
   padding: 6px 25px;
   cursor: pointer;
   border-radius: 15px;
+}
+
+button:hover {
+  background-color: rgb(105, 105, 226);;
 }
