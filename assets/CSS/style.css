@@ -1,11 +1,10 @@
 * {
   margin: 0;
-  font-family: sans-serif;
+  font-family: sans-serif;  
 }
 
 .bg {
   background-color: rgb(220, 220, 220);
-  overflow: hidden;
 }
 
 nav {
@@ -70,33 +69,34 @@ img {
 }
 
 .margin {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
   background-color: white;
-  width: 1100px;
-  height: 550px;
-  margin: 75px auto;
+  margin: 50px auto;
   box-shadow: 0px 20px 20px;
   border: 1px solid black;
   border-radius: 10px;
 }
 
 .foto {
-  width: 150px;
+  width: 100px;
   border-radius: 15px;
   box-shadow: 0px 10px 10px #dbdbdb;
   margin-right: 25px;
-  padding: 15px;
-  float: right;
+  margin-bottom: 25px; 
+  padding-bottom: 0px;
   text-align: center;
+  box-sizing: border;
 }
 
 #img {
-  float: right;
-  width: 250px;
+  width: 220px;
 }
 
 .text {
-  width: 50%;
-  margin: 50px 75px;
+  width: 60%;
+  margin: 50px auto;
   text-align: justify;
 }
 
