@@ -71,14 +71,8 @@ img {
   background-color: rgb(105, 105, 226);;
 }
 
-
-.get {
-  text-align: center;
-  margin-top: 50px;
-}
-
 form {
-  margin: auto;
+  width: 600px ;
   width: 500px;
   margin: 50px auto;
 }
